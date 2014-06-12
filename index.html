@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Camella Homes Virtual Tour</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<!--start slider -->
+<link rel="stylesheet" href="css/fwslider.css" media="all"/>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<script src="js/fwslider.js"></script>
+<!--end slider -->
+<link rel="stylesheet "href="css/lightbox.css" media="all"/>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<!---strat-date-piker---->
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<script src="js/jquery-ui.js"></script>
+		  <script>
+				  $(function() {
+				    $( "#datepicker,#datepicker1" ).datepicker();
+				  });
+		  </script>
+<!---/End-date-piker---->
+<link type="text/css" rel="stylesheet" href="css/JFGrid.css" />
+<link type="text/css" rel="stylesheet" href="css/JFFormStyle-1.css" />
+		<script type="text/javascript" src="js/JFCore.js"></script>
+		<script type="text/javascript" src="js/JFForms.js"></script>
+		<!-- Set here the key for your domain in order to hide the watermark on the web server -->
+		<script type="text/javascript">
+			(function() {
+				JC.init({
+					domainKey: ''
+				});
+				})();
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+<script type='text/javascript'>
+(function () { 
+		var done = false; var script = document.createElement('script'); 
+		script.async = true; script.type = 'text/javascript';
+		script.src = 'https://widget.purechat.com/VisitorWidget/WidgetScript';
+		document.getElementsByTagName('HEAD').item(0).appendChild(script);
+		script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'dad3467c-1411-4920-b005-05267ed064ff', f: true });
+		done = true; 
+		} };
+		})();
+</script>
+
+
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo2.png" alt=""></a>
+		</div>
+		<div class="h_right">
+			<!--start menu -->
+			<ul class="menu">
+				<li class="active"><a href="index.html">Home</a></li> |
+				<li><a href="rooms.html">Virtual Tour</a></li> |
+				<li><a href="reservation.html">Model Houses</a></li> |
+				<li><a href="activities.html">activities</a></li> |
+				<li><a href="contact.html">contact</a></li>
+				<div class="clear"></div>
+			</ul>
+			<!-- start profile_details -->
+					<form class="style-1 drp_dwn">
+						<div class="row">
+							<div class="grid_3 columns">
+								<select class="custom-select" id="select-1">
+									<option selected="selected">EN</option>
+									<option>USA</option>
+									<option>AUS</option>
+									<option>UK</option>
+									<option>IND</option>
+								</select>
+							</div>		
+						</div>		
+					</form>
+		</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li> 
+				<li><a href="rooms.html">Virtual Tour</a></li> 
+				<li><a href="reservation.html">Model Houses</a></li> 
+				<li><a href="activities.html">activities</a></li> 
+				<li><a href="contact.html">contact</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>
+			</nav>
+		</div>
+	</div>
+</div>
+</div>
+<!----start-images-slider---->
+		<div class="images-slider">
+			<!-- start slider -->
+		    <div id="fwslider">
+		        <div class="slider_container">
+		            <div class="slide"> 
+		                <!-- Slide image -->
+		                    <img src="images/slide1.jpg" alt=""/>
+		                <!-- /Slide image -->
+		                <!-- Texts container -->
+		                <div class="slide_content">
+		                    <div class="slide_content_wrap">
+		                        <!-- Text title -->
+		                        <h4 class="title"><i class="bg"></i>camella <span class="hide">batangas city</span></h4>
+		                        <h5 class="title1"><i class="bg"></i>impressively italian <span class="hide" >exclusively private</span></h5>
+		                        <!-- /Text title -->
+		                    </div>
+		                </div>
+		                 <!-- /Texts container -->
+		            </div>
+		            <!-- /Duplicate to create more slides -->
+		            <div class="slide">
+		                <img src="images/large3.jpg" alt=""/>
+		                <div class="slide_content">
+		                     <div class="slide_content_wrap">
+		                        <!-- Text title -->
+		                        <h4 class="title"><i class="bg"></i>Camella Series <span class="hide"> 2 storeys</span></h4>
+		                        <h5 class="title1"><i class="bg"></i>value for money <span class="hide"> for your growing family</span> </h5>
+		                        <!-- /Text title -->
+		                    </div>
+		                </div>
+		            </div>
+					<div class="slide">
+		                <img src="images/large1.png" alt=""/>
+		                <div class="slide_content">
+		                     <div class="slide_content_wrap">
+		                        <!-- Text title -->
+		                        <h4 class="title"><i class="bg"></i>amenities <span class="hide"></span></h4>
+		                        <h5 class="title1"><i class="bg"></i>club house, playground, <span class="hide">pocket parks</span> </h5>
+		                        <!-- /Text title -->
+		                    </div>
+		                </div>
+		            </div>
+		            <!--/slide -->
+		        </div>
+		        <div class="timers"> </div>
+		        <div class="slidePrev"><span> </span></div>
+		        <div class="slideNext"><span> </span></div>
+		    </div>
+		    <!--/slider -->
+		</div>
+<!--start main -->
+<div class="main_bg">
+<div class="wrap">
+	<!--start grids_of_3 -->
+	<div class="grids_of_3">
+		<div class="grid1_of_3">
+			<div class="grid1_of_3_img">
+					<a href="images/map.jpg" data-lightbox="pic2" data-title="Way to Camella"><img src="images/map.jpg" alt="" /></a>
+			</div>
+			<h4><a>Prime Location</a></h4>
+			<p>Out of the wind, into the sun. Impressively Italian set in a prime city location yet exclusively private</p>
+		</div>
+		<div class="grid1_of_3">
+			<div class="grid1_of_3_img">
+					<a href="images/camellamap.jpg" data-lightbox="pic1" data-title="Site Plan"><img src="images/camellamap.jpg" alt="" /></a>
+			</div>
+			<h4><a>Carmela Homes Plan<a></h4>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+		<div class="grid1_of_3">
+			<div class="grid1_of_3_img">
+				<a href="images/large4.jpg" data-lightbox="pic3" data-title="Camella Sample"><img src="images/large4.jpg" alt="" /></a>
+					<a href="images/large5.jpg" data-lightbox="pic3" data-title="Camella Sample"></a>
+				<a href="images/large6.jpg" data-lightbox="pic3" data-title="Camella Sample"></a>
+			</div>
+			<h4><a>Building the Country</span></a></h4>
+			<p>Camella Homes aims to provide homes farther across the Philippines than anyone else. But beyond homes, it layed the foundations for dreams. Creating the stages where tomorrows are played out. Designing havens for families - sanctuaries where they will grow, prosper and be happy. For able to support customer standards, proponents believe that virtual tour will help the Filipinos especially Batangenyos to decide and to create for their dreams houses and will soon turn to be homes.</p>
+		</div>
+		<div class="clear"></div>
+	</div>	
+</div>
+</div>	
+<!--start main -->
+<div class="footer_bg">
+<div class="wrap">
+<div class="footer">
+			<div class="copy">
+				<p class="link"><span>©2013 All rights reserved &nbsp;<a href="https://www.facebook.com/paulceazar">TheCreator</a></span></p>
+			</div>
+			<div class="f_nav">
+				<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="rooms.html">Virtual Tour</a></li> 
+				<li><a href="reservation.html">Model Houses</a></li> 
+				<li><a href="contact.html">contact</a></li>
+				</ul>
+			</div>
+			<div class="soc_icons">
+				<ul>
+					<li><a class="icon1" href="#"></a></li>
+					<li><a class="icon2" href="#"></a></li>
+					<li><a class="icon3" href="#"></a></li>
+					<li><a class="icon4" href="#"></a></li>
+					<li><a class="icon5" href="#"></a></li>
+					<div class="clear"></div>
+				</ul>	
+			</div>
+			<div class="clear"></div>
+</div>
+</div>
+</div>		
+
+</body>
+</html>
